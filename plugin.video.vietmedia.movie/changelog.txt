@@ -1,0 +1,30 @@
+Version 1.0.0 (11/4/2015):
+- Phát hành lần đầu
+
+Version 1.0.1 (12/4/2015):
+- Bổ sung tải phụ đề rời.
+
+Version 1.0.2 (13/4/2015):
+- Regex từ client
+
+Version 1.0.4 (15/4/2015):
+- Thêm youtube
+
+Version 1.0.5 (15/4/2015):
+- Fixed lỗi đôi khi không hiển thị phụ đề
+- Cho phép bổ sung source tại client.
+
+Version 1.0.6 (26/4/2015):
+- Fixed provider source changed
+
+Version 1.0.7 (13/5/2015):
+- Fixed provider source changed (cinema 4)
+
+Version 1.0.8 (15/5/2015):
+- Fixed search (cinema 4)
+
+Version 1.0.9 (18/5/2015):
+- Removed progressdialogBG so it worked on XBMC 12
+
+Version 1.0.10 (27/5/2015):
+- Sửa lỗi rạp 4
