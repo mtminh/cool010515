@@ -1,3 +1,18 @@
+Version 1.7.8
+one mistake in oneplay
+
+Version 1.7.7
+Oneplay decryption! only for NOOB :D
+
+Version 1.7.6
+Rolled back changes in 1.7.2 is back on, thanks alibaba!
+
+Version 1.7.5
+fixed captchanew function and support accept there
+
+Version 1.7.4
+added accept param for regex
+
 Version 1.7.3
 support for new captcha function
 
