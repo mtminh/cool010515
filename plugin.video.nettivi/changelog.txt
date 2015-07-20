@@ -1,11 +1,6 @@
-v 1.2.2
-Added tvcatchup
-
-v 1.2.1
-Fixed HTVOnline
-
-v 1.2.0
-Added Thieu Nhi
+v 1.2.5
+Updated HTVOnline
+Added YouTube channels
 
 v 1.0.0
 Initial release
