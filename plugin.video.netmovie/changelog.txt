@@ -1,16 +1,5 @@
-v 1.1.12
-Fixed Megabox's pagination
-
-v 1.1.11
-Added phimhd3s
-Fixed phim.megabox.vn
-Removed phim14.net
-
-v 1.1.10
-Emptied settings.xml
-
-v 1.1.9
-Show View List
+v 1.1.13
+Reduced icon size to save space
 
 v 1.0.0
 Initial release

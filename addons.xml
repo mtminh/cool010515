@@ -143,18 +143,17 @@
 
 <addon id="plugin.video.netmedia"
        name="*netmedia"
-       version="1.1.3"
+       version="1.1.5"
        provider-name="DaveLN">
   <requires>
-    <import addon="xbmc.python" version="2.1.0" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Videos and audio from various websites</summary>
-    <description>Watch videos and listen to audio from many sources. </description>
+    <summary>Video and audio from various websites</summary>
+    <description>Play video and audio from many sources.</description>
 	<disclaimer lang="en">
 [COLOR lime]The streaming media are pulled from online provider(s).
 [COLOR red]These streams do not represent my views or opinions in any way.[/COLOR]</disclaimer>
@@ -173,7 +172,7 @@
 
 <addon id="plugin.video.netmovie"
        name="*netmovie"
-       version="1.1.12"
+       version="1.1.13"
        provider-name="DaveLN">
   <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
@@ -199,7 +198,7 @@
 
 <addon id="plugin.video.netmusic"
        name="*netmusic"
-       version="1.1.3"
+       version="1.1.4"
        provider-name="DaveLN">
   <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
@@ -225,7 +224,7 @@
 
 <addon id="plugin.video.nettivi"
        name="*nettivi"
-       version="1.2.5"
+       version="1.2.9"
        provider-name="DaveLN">
   <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
@@ -418,7 +417,7 @@ Rất mong các bạn tuân thủ và tạo động lực cho chúng tôi trong 
   </extension>
 </addon>
 
-<addon id="plugin.video.xshare" name="[COLOR red][B]Xshare[/COLOR]-[COLOR green]XBMC[/COLOR] [COLOR blue]HD Video[/B][/COLOR]" version="3.2.10" provider-name="thaitni">
+<addon id="plugin.video.xshare" name="[COLOR red][B]Xshare[/COLOR]-[COLOR green]XBMC[/COLOR] [COLOR blue]HD Video[/B][/COLOR]" version="3.2.12" provider-name="thaitni">
     <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
     </requires>
@@ -427,7 +426,7 @@ Rất mong các bạn tuân thủ và tạo động lực cho chúng tôi trong 
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Xshare - XBMC HD Video</summary>
-		<description lang="en">Tìm và Xem HD Video trên XBMC từ: fshare.vn, 4share.vn, vaphim.com, ifile.tv, phimfshare.com, fptplay.net, hdvietnam.com, megabox.vn, dangcaphd.com, hayhaytv.vn, hdviet.com, pubvn.net, vuahd.tv</description>
+		<description lang="en">Tìm và Xem HD Video trên XBMC từ: fshare.vn, 4share.vn, vaphim.com, ifile.tv, phimfshare.com, fptplay.net, hdvietnam.com, megabox.vn, dangcaphd.com, hayhaytv.vn, hdviet.com, pubvn.net, vuahd.tv, phimmoi.net</description>
 		<platform>all</platform>
 		<language>en</language>
 		<license>GNU General Public License - v2</license>
