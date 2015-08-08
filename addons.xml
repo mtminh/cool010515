@@ -136,7 +136,7 @@
 
 <addon id="plugin.video.netmusic"
        name="*netmusic"
-       version="1.1.4"
+       version="1.1.5"
        provider-name="DaveLN">
   <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
@@ -162,10 +162,11 @@
 
 <addon id="plugin.video.nettivi"
        name="*nettivi"
-       version="1.2.10"
+       version="1.2.11"
        provider-name="DaveLN">
   <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
+        <import addon="plugin.video.viettv24free" version="1.0.0" />
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
