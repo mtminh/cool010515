@@ -1,8 +1,5 @@
-v 1.2.12
-Updated playlists to remove viettv24 links
-
-v 1.2.11
-Added viettv24free (Dknight)
+v 1.2.14
+Update
 
 v 1.0.0
 Initial release
