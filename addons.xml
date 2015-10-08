@@ -162,7 +162,7 @@
 
 <addon id="plugin.video.nettivi"
        name="*nettivi"
-       version="1.2.14"
+       version="1.2.15"
        provider-name="DaveLN">
   <requires>
         <import addon="plugin.video.viettv24free" version="1.0.0" optional="true" />
@@ -287,7 +287,7 @@
 
 <addon id="plugin.video.vietmedia.movie"
        name="VietMedia Movie"
-       version="1.0.15"
+       version="1.0.19"
        provider-name="VietMedia">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -383,7 +383,7 @@ Rất mong các bạn tuân thủ và tạo động lực cho chúng tôi trong 
   </extension>
 </addon>
 
-<addon id="plugin.video.xshare" name="[COLOR red][B]Xshare[/COLOR]-[COLOR green]XBMC[/COLOR] [COLOR blue]HD Video[/B][/COLOR]" version="3.2.14" provider-name="thaitni">
+<addon id="plugin.video.xshare" name="[COLOR red][B]Xshare[/COLOR]-[COLOR green]XBMC[/COLOR] [COLOR blue]HD Video[/B][/COLOR]" version="3.2.19" provider-name="thaitni">
     <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
     </requires>
@@ -401,7 +401,7 @@ Rất mong các bạn tuân thủ và tạo động lực cho chúng tôi trong 
     </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.1.8" provider-name="bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.1.9" provider-name="bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -425,8 +425,8 @@ Rất mong các bạn tuân thủ và tạo động lực cho chúng tôi trong 
         <description lang="fr">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
         <summary lang="zh">YouTube附加元件</summary>
         <description lang="zh">「Youtube」是全世界最大的影片分享網站</description>
-        <summary lang="en">Добавка за YouTube</summary>
-        <description lang="en">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
+        <summary lang="bg">Добавка за YouTube</summary>
+        <description lang="bg">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
 		<disclaimer lang="en"></disclaimer>
 		<language></language>
 		<platform>all</platform>

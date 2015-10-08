@@ -1,5 +1,5 @@
-v 1.2.14
-Update
+v 1.2.15
+Added Chrome Launcher for VietTV24
 
 v 1.0.0
 Initial release
