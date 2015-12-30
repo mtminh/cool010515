@@ -61,6 +61,27 @@
 </addon>
 
 <addon
+  id="plugin.video.anhtrang_org"
+  version="0.0.5"
+  name="[COLOR ffffff00]Anh[/COLOR][COLOR ffffa500]Trang[/COLOR][COLOR ffffffff].ORG[/COLOR]"
+  provider-name="traitravinh">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="2.7.0"/>
+    <import addon="script.module.simple.downloader" version="1.9.4" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="anhtrang.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch movies</summary>
+    <description>Watch movies</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
   id="plugin.video.hdviet"
   version="1.1.5"
   name="HDViet"
@@ -257,24 +278,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.TVCatchup" name="Truyền Hình Xem Lại" version="1.0.0" provider-name="lqc1987">
-  <requires>
-        <import addon="xbmc.python" version="2.1.0" optional="true" />
-		<import addon="script.module.simplejson" />
-		<import addon="script.module.t0mm0.common" version="1.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>[COLOR yellow]Giải [COLOR cyan]trí [COLOR tan]On[COLOR coral]line[/COLOR]</summary>
-    <description>Xem lại các chương trình truyền hình trên Internet</description>
-	<disclaimer lang="en">Stream nội dung trên Internet nên tôi không chịu trách nhiệm về sự ổn định.</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon
   id="plugin.video.tvzing"
   version="0.9.4"
@@ -347,6 +350,26 @@ Rất mong các bạn tuân thủ và tạo động lực cho chúng tôi trong 
   </extension>
 </addon>
 
+<addon
+  id="plugin.video.xemphimso"
+  version="0.0.3"
+  name="[COLOR FF32CD32]XemPhimSo[/COLOR]"
+  provider-name="traitravinh">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" optional="true"/>
+    <import addon="script.module.requests" version="2.4.3" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="xemphimso.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch Movies</summary>
+    <description>Watch Movies on xemphimso.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.xshare" name="[COLOR red][B]Xshare[/COLOR]-[COLOR green]XBMC[/COLOR] [COLOR blue]HD Video[/B][/COLOR]" version="3.2.30" provider-name="thaitni">
     <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
@@ -400,24 +423,6 @@ Rất mong các bạn tuân thủ và tạo động lực cho chúng tôi trong 
 		<email>bromix at gmx dot net</email>
 		<source>https://github.com/bromix/plugin.video.youtube</source>
 	</extension>
-</addon>
-
-<addon id="script.module.urlresolver"
-     name="URLResolver"
-     version="2.9.0"
-     provider-name="Eldorado">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="plugin.video.youtube" version="4.4.7"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-    <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-  </extension>
 </addon>
 
 <addon id="service.subtitles.xshare" name="xshare subtitles" version="1.1.2" provider-name="thaitni">
