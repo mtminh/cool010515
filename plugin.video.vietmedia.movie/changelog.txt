@@ -1,4 +1,4 @@
-Version 1.0.0 (11/4/2015):
+﻿Version 1.0.0 (11/4/2015):
 - Phát hành lần đầu
 
 Version 1.0.1 (12/4/2015):
@@ -51,4 +51,10 @@ Version 1.0.18 (13/09/2015):
 - Mở lại rap 3 tivi
 
 Version 1.0.19 (14/09/2015):
-- Thêm 2 kênh 
+- Thêm 2 kênh
+
+Version 1.0.20 (19/11/2015):
+- Sửa lỗi rạp 4
+
+Version 1.0.21 (01/12/2015):
+- Sửa thumbnail
